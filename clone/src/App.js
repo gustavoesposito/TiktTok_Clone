@@ -3,6 +3,10 @@ import './App.css';
 import video from  './video.mp4'
 
 function App() {
+
+  const playVideo = ()=> {
+
+  }
   return (
     <div className="App">
        <div className='box_video'>
@@ -12,6 +16,9 @@ function App() {
             <p>My cool video</p>
 
           </div>
+          <video id='video' onClick={()=>playVideo()}>
+            <source src={video} type="video/mp4"/>
+          </video>
       </div>
     </div>
   );
