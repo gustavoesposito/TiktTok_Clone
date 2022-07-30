@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
        <div className='box-video'>
-        
+        <h2>Olá mundo</h2>
        </div>
     </div>
   );
