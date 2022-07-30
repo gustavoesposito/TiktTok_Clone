@@ -5,8 +5,8 @@ import video from  './video.mp4'
 function App() {
 
   const playVideo = ()=> {
-    alert('tocando o vídeo');
-
+      let video= document.getElementById('video')
+      video.play();
   }
   return (
     <div className="App">
