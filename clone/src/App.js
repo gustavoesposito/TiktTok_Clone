@@ -23,6 +23,9 @@ function App() {
             <source src={video} type="video/mp4"/>
           </video>
           <div className='icons_bottom'>
+              <AiOutlineUserSwitch style={{fontSize : '30px', color :'white'}}></AiOutlineUserSwitch>
+              <AiOutlineUserSwitch style={{fontSize : '30px', color :'white'}}></AiOutlineUserSwitch>
+              <AiOutlineUserSwitch style={{fontSize : '30px', color :'white'}}></AiOutlineUserSwitch>
 
           </div>
           <div className='icons-_right'>
