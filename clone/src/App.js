@@ -29,9 +29,9 @@ function App() {
 
           </div>
           <div className='icons_right'>
-            <AiOutlineUserSwitch style={{fontSize:'30px', color: 'white', margin:'8px 0'}}></AiOutlineUserSwitch>
-            <AiFillHeart style={{fontSize:'30px', color: 'red', margin:'8px 0'}}></AiFillHeart>
-            <FaRegCommentDots style={{fontSize:'30px', color: 'white', margin:'8px 0'}}></FaRegCommentDots>
+            <AiOutlineUserSwitch style={{fontSize:'30px',color: 'white',margin:'8px 0'}}></AiOutlineUserSwitch>
+            <AiFillHeart style={{fontSize:'30px',color: 'red',margin:'8px 0'}}></AiFillHeart>
+            <FaRegCommentDots style={{fontSize:'30px',color: 'white', margin:'8px 0'}}></FaRegCommentDots>
 
           </div>
          </div> 
