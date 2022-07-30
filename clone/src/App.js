@@ -24,15 +24,18 @@ function App() {
           </video>
           <div className='icons_bottom'>
               <AiOutlineUserSwitch style={{fontSize : '30px', color :'white'}}></AiOutlineUserSwitch>
-              <AiOutlineUserSwitch style={{fontSize : '30px', color :'white'}}></AiOutlineUserSwitch>
+              <AiOutlineUserSwitch style={{fontSize : '30px',color :'white'}}></AiOutlineUserSwitch>
               <AiOutlineUserSwitch style={{fontSize : '30px', color :'white'}}></AiOutlineUserSwitch>
 
           </div>
           <div className='icons-_right'>
+            <AiOutlineUserSwitch style={{fontSize:'30px', color: 'white', margin:'8px 0'}}></AiOutlineUserSwitch>
+            <AiFillHeart style={{fontSize:'30px', color: 'white', margin:'8px 0'}}></AiFillHeart>
+            <FaRegCommentDots style={{fontSize:'30px', color: 'white', margin:'8px 0'}}></FaRegCommentDots>
 
           </div>
 
-           </div>
+           </div>AiFillHeart
     </div>
   );
 }
