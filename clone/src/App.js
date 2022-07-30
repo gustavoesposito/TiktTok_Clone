@@ -5,6 +5,7 @@ import video from  './video.mp4'
 function App() {
 
   const playVideo = ()=> {
+    alert('tocando o vídeo');
 
   }
   return (
