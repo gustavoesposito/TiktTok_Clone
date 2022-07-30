@@ -8,6 +8,8 @@ function App() {
        <div className='box_video'>
 
           <div className='title_video'>
+            <h3>@gustavoEsposito13</h3>
+            <p>My cool video</p>
 
           </div>
       </div>
