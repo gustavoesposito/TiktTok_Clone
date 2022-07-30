@@ -29,7 +29,7 @@ object-fit: cover;
 .icons_right{
   position:absolute;
   right:0;
-  bottom:90px;
+  bottom:70px;
   display: flex;
   flex-direction: column;
   padding: 10px;
@@ -40,9 +40,10 @@ object-fit: cover;
   width: 100%;
   bottom:0 ;
   height: 45px;
-  background-color: green;
-  border-top:2px solid white;
-  flex: ;
+   border-top:2px solid white;
+   display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 
