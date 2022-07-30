@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import video from  './video.mp4'
+import {AiOutlineUserSwitch, AiFillHeart} from "react-icons/ai"
+import {FaRegCommentDots} from "react-icons/fa"
 
 function App() {
 
