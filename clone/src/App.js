@@ -20,7 +20,14 @@ function App() {
           <video id='video' onClick={()=>playVideo()}>
             <source src={video} type="video/mp4"/>
           </video>
-      </div>
+          <div className='icons_bottom'>
+
+          </div>
+          <div className='icons-_right'>
+
+          </div>
+
+           </div>
     </div>
   );
 }
