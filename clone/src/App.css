@@ -45,5 +45,11 @@ object-fit: cover;
   flex-direction: row;
   justify-content: space-around;
 }
-
+.title_video{
+  position: absolute;
+  bottom: 55px;
+  left: 10px;
+  color: white;
+  z-index: 999;
+}
 
