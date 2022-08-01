@@ -24,6 +24,13 @@ background-color: #222;
    top:5%;
    font-size: 30px;
   }
+  .search-box{
+    position: absolute;
+    right: 15%;
+   top:85%;
+   margin-top: 12px;
+  }
+
  .box-video{
   position: absolute;
   left: 50%;

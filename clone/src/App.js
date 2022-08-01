@@ -3,7 +3,7 @@ import './App.css';
 import video from  './video.mp4'
 import {AiOutlineUserSwitch, AiFillHeart} from "react-icons/ai"
 import {FaRegCommentDots} from "react-icons/fa"
-
+import {FiSearch} from "react-icons/fi"
 function App() {
 
   const playVideo = ()=>{
@@ -16,8 +16,8 @@ function App() {
         <h1>Espo Tok</h1>
         <div className='search-box'>
           <input type="text" className='search-txt' placeholder='Search'/>
-          <a href="#">
-            
+          <a href="#" className=''>
+          <FiSearch></FiSearch>
           </a>
 
         </div>
