@@ -35,14 +35,31 @@ background-color: #222;
    display: flex;
    justify-content: space-between;
    align-items: center;
+   color:#fff;
   }
   .search-txt{
     border : none;
+    background: none;
+    outline: none;
     height: 30px;
-    background-image: linear-gradient(305deg, rgba(2,0,36,1) 0% , rgba(121,9,118,1)34% , rgba(0,212,255,1)  100% ) ;
-    -webkit-background-clip:text;
+  color: rgba(121,9,118,1);
+    padding: 0;
+    font-size: 16px;
+    line-height: 40px;
+    width: 0;
   }
-
+  .search-btn{
+    width: 40px;
+    height:40px;
+   border-radius:50%;
+   background : #0a1b2d ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  .search-box:hover > .search-txt{
+   
+  }
  .box-video{
   position: absolute;
   left: 50%;

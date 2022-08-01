@@ -16,7 +16,7 @@ function App() {
         <h1>Espo Tok</h1>
         <div className='search-box'>
           <input type="text" className='search-txt' placeholder='Search'/>
-          <a href="#" className=''>
+          <a href="#" className='search-btn'>
           <FiSearch></FiSearch>
           </a>
 
