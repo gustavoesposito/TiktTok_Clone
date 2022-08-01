@@ -4,12 +4,11 @@
   box-sizing: border-box;
  }
  html,body{
-  height: 100%;
-
-   background-color: #222;
- 
+ height: 100%;
+background-color: #222;
+ background-image: linear-gradient(90deg, rgba(2,0,36,1)0%, rgba(121,9,118,1)34%, rgba(0,212,255,1) 100%);
  }
- .box_video{
+ .box-video{
   position: absolute;
   left: 50%;
   top: 50%;
@@ -27,7 +26,7 @@ height: 100%;
 border-radius: 10px;
 object-fit: cover;
 }
-.icons_right{
+.icons-right{
   position:absolute;
   right:0;
   bottom:70px;
@@ -35,7 +34,7 @@ object-fit: cover;
   flex-direction: column;
   padding: 10px;
 }
-.icons_bottom{
+.icons-bottom{
   position: absolute;
   z-index: 999;
   width: 100%;
@@ -46,7 +45,7 @@ object-fit: cover;
   flex-direction: row;
   justify-content: space-around;
 }
-.title_video{
+.title-video{
   position: absolute;
   bottom: 55px;
   left: 10px;
