@@ -13,6 +13,7 @@ function App() {
   return (
     <div className="App">
       <div className='title-name'>
+        <h1>Espo Tok</h1>
 
       </div>
        <div className='box-video'>
