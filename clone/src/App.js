@@ -12,6 +12,9 @@ function App() {
   }
   return (
     <div className="App">
+      <div className='title-name'>
+
+      </div>
        <div className='box-video'>
 
           <div className='title-video'>
