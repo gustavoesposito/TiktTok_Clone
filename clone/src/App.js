@@ -27,7 +27,7 @@ function App() {
 
           <div className='title-video'>
             <h3>@gustavoEsposito13</h3>
-            <p>My cool video</p>
+            <p>My pianist cat #miaw #freela</p>
 
           </div>
           <video id='video' onClick={()=>playVideo()}>

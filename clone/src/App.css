@@ -42,23 +42,27 @@ background-color: #222;
     background: none;
     outline: none;
     height: 30px;
-  color: rgba(121,9,118,1);
+  color: #222 ;
     padding: 0;
     font-size: 16px;
     line-height: 40px;
     width: 0;
+    transition: .2s;
   }
   .search-btn{
+    position: absolute;
+    right:40px ;
     width: 40px;
     height:40px;
    border-radius:50%;
    background : #0a1b2d ;
+   color: #222;
   display: flex;
   justify-content: center;
   align-items: center;
   }
   .search-box:hover > .search-txt{
-   
+   width: 240px;
   }
  .box-video{
   position: absolute;
